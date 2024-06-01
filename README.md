@@ -1,16 +1,5 @@
-# toonflix
+# card
 
-A new Flutter project.
+card UI 클론코딩
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![card](https://github.com/zuhii/flutter_app_first/assets/98836390/1f06ff3a-aaa6-4712-9ab0-83558b1a3cc6)
