@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:toonflix/controller/pref_controller.dart';
 import 'package:toonflix/screens/home_screen.dart';
 
 void main() {
@@ -10,8 +13,14 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomeScreen(),
-    );
+    final PrefController pref = Get.put(PrefController());
+    return Obx(() {
+      return GetMaterialApp(
+        theme: pref.themeMode.value == 'light'
+            ? ThemeData.light()
+            : ThemeData.dark(),
+        home: const HomeScreen(),
+      );
+    });
   }
 }

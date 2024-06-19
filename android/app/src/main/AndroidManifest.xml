@@ -9,6 +9,7 @@
     <action android:name="android.support.customtabs.action.CustomTabsService" />
   </intent>
 </queries>
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="toonflix"
         android:name="${applicationName}"

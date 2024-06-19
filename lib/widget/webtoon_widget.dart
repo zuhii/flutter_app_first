@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:toonflix/controller/pref_controller.dart';
 import 'package:toonflix/screens/detail_screen.dart';
 
 class Webtoon extends StatelessWidget {
+  PrefController pref = PrefController();
   final String title, thumb, id;
 
-  const Webtoon(
+  Webtoon(
       {super.key, required this.title, required this.thumb, required this.id});
 
   @override
