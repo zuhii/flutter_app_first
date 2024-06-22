@@ -1,16 +1,13 @@
 # toonflix
+네이버 웹툰
 
-A new Flutter project.
+$ flutter pub get
 
-## Getting Started
+ apk 파일 경로
+ build\app\outputs\flutter-apk\app-release.apk
 
-This project is a starting point for a Flutter application.
+![Screenshot_20240620-205526 2](https://github.com/zuhii/flutter_app_first/assets/98836390/e6c3cd6d-8371-409c-af6d-b5573ed31aca)
+![Screenshot_20240620-205503 1](https://github.com/zuhii/flutter_app_first/assets/98836390/227b2f87-db7c-4464-8f93-bef3ff98d1c6)
+![Screenshot_20240620-205515_Android_System 1](https://github.com/zuhii/flutter_app_first/assets/98836390/4884ce4f-a81f-4580-895a-fcde201acebc)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
