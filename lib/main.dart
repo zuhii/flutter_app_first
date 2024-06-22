@@ -16,6 +16,7 @@ class App extends StatelessWidget {
     final PrefController pref = Get.put(PrefController());
     return Obx(() {
       return GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: pref.themeMode.value == 'light'
             ? ThemeData.light()
             : ThemeData.dark(),
